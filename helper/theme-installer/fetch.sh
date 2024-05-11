@@ -54,13 +54,13 @@ mod_fetch () {
 
 
 	util_error_echo
-	util_error_echo wget -c "https://github.com/samwhelp/grub-theme-banner/archive/refs/heads/main.tar.gz" -O "${tmp_download_dir_path}/grub-theme-banner-main.tar.gz"
-	wget -c "https://github.com/samwhelp/grub-theme-banner/archive/refs/heads/main.tar.gz" -O "${tmp_download_dir_path}/grub-theme-banner-main.tar.gz"
+	util_error_echo wget -c "https://github.com/samwhelp/grub-theme-banner-remix/archive/refs/heads/main.tar.gz" -O "${tmp_download_dir_path}/grub-theme-banner-remix-main.tar.gz"
+	wget -c "https://github.com/samwhelp/grub-theme-banner-remix/archive/refs/heads/main.tar.gz" -O "${tmp_download_dir_path}/grub-theme-banner-remix-main.tar.gz"
 
 
 	util_error_echo
-	util_error_echo tar xf "${tmp_download_dir_path}/grub-theme-banner-main.tar.gz" -C "${tmp_download_dir_path}"
-	tar xf "${tmp_download_dir_path}/grub-theme-banner-main.tar.gz" -C "${tmp_download_dir_path}"
+	util_error_echo tar xf "${tmp_download_dir_path}/grub-theme-banner-remix-main.tar.gz" -C "${tmp_download_dir_path}"
+	tar xf "${tmp_download_dir_path}/grub-theme-banner-remix-main.tar.gz" -C "${tmp_download_dir_path}"
 
 
 	util_error_echo
@@ -69,8 +69,8 @@ mod_fetch () {
 
 
 	util_error_echo
-	util_error_echo sudo cp -rf "${tmp_download_dir_path}/grub-theme-banner-main/." "/boot/grub/themes/grub-theme-banner"
-	sudo cp -rf "${tmp_download_dir_path}/grub-theme-banner-main/." "/boot/grub/themes/grub-theme-banner"
+	util_error_echo sudo cp -rf "${tmp_download_dir_path}/grub-theme-banner-remix-main/." "/boot/grub/themes/grub-theme-banner-remix"
+	sudo cp -rf "${tmp_download_dir_path}/grub-theme-banner-remix-main/." "/boot/grub/themes/grub-theme-banner-remix"
 
 
 

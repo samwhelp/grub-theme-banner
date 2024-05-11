@@ -76,8 +76,8 @@ mod_apply () {
 	util_error_echo
 
 cat << EOF | sudo tee /etc/default/grub.d/theme.cfg
-GRUB_BACKGROUND='/boot/grub/themes/grub-theme-banner/background.jpg'
-GRUB_THEME="/boot/grub/themes/grub-theme-banner/theme.txt"
+GRUB_BACKGROUND='/boot/grub/themes/grub-theme-banner-remix/background.jpg'
+GRUB_THEME="/boot/grub/themes/grub-theme-banner-remix/theme.txt"
 
 EOF
 
