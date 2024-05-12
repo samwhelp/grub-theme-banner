@@ -17,6 +17,8 @@
 * [Apply](#apply)
 * [Helper](#helper)
 * [Docs](#docs)
+* [Grub Theme / Glass / Series](#grub-theme--glass--series)
+* [Demo / Grub Theme / Image Creation](#demo--grub-theme--image-creation)
 
 
 
@@ -138,3 +140,25 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 | 1. `menu-box-nw.png` | 2. `menu-box-n.png` | 3. `menu-box-ne.png` |
 | 4. `menu-box-w.png`  | 5. `menu-box-c.png` | 6. `menu-box-e.png`  |
 | 7. `menu-box-sw.png` | 8. `menu-box-s.png` | 9. `menu-box-se.png` |
+
+
+
+
+## Grub Theme / Glass / Series
+
+| Base | Remix |
+| ---- | ----- |
+| [grub-theme-score](https://github.com/samwhelp/grub-theme-score) | [grub-theme-score-remix](https://github.com/samwhelp/grub-theme-score-remix) |
+| [grub-theme-glass](https://github.com/samwhelp/grub-theme-glass) | [grub-theme-glass-remix](https://github.com/samwhelp/grub-theme-glass-remix) |
+| [grub-theme-cover](https://github.com/samwhelp/grub-theme-cover) | [grub-theme-cover-remix](https://github.com/samwhelp/grub-theme-cover-remix) |
+| [grub-theme-banner](https://github.com/samwhelp/grub-theme-banner) | [grub-theme-banner-remix](https://github.com/samwhelp/grub-theme-banner-remix) |
+| [grub-theme-cross](https://github.com/samwhelp/grub-theme-cross) | [grub-theme-cross-remix](https://github.com/samwhelp/grub-theme-cross-remix) |
+
+
+
+
+## Demo / Grub Theme / Image Creation
+
+| Link | GitHub |
+| ---- | ------ |
+| [demo-grub-theme-image-creation](https://samwhelp.github.io/demo-grub-theme-image-creation/) | [GitHub](https://github.com/samwhelp/demo-grub-theme-image-creation) |
